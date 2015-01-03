@@ -17,6 +17,7 @@ PRODUCT_PACKAGES += \
 	hci_qcomm_init \
 	irsc_util \
 	netmgrd \
+	mpdecision \
 	qmuxd \
 	rmt_storage \
 	sct_service \
