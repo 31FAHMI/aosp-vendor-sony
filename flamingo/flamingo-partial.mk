@@ -15,6 +15,7 @@
 PRODUCT_PACKAGES += \
 	btnvtool \
 	hci_qcomm_init \
+	sensors.qcom \
 	adsp_b00 \
 	adsp_b01 \
 	adsp_b02 \
