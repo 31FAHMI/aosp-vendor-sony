@@ -52,8 +52,15 @@ PRODUCT_PACKAGES += \
 	WCNSS_qcom_cfg \
 	WCNSS_qcom_wlan_nv \
 	copybit.msm8226 \
+	gps.msm8226 \
+	flp.default \
 	libdiag \
+	libgps.utils \
 	libkeyctrl \
+	libloc_core \
+	libloc_eng \
+	libloc_api_v02 \
+	libloc_ds_api \
 	libmiscta \
 	libmmjpeg_interface \
 	libpin-cache \
