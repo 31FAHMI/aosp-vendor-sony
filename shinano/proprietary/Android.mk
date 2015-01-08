@@ -964,16 +964,6 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := audio.primary.msm8974
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := lib/hw/audio.primary.msm8974.so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/lib/hw
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := copybit.msm8974
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib/hw/copybit.msm8974.so
